@@ -45,3 +45,9 @@ footer {
     display: flex;
     justify-content: flex-end;
 }
+
+.carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+}
