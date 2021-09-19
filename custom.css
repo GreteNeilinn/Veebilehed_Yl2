@@ -40,3 +40,8 @@ footer {
 .footerCol {
     float: left;
 }
+
+#logod {
+    display: flex;
+    justify-content: flex-end;
+}
